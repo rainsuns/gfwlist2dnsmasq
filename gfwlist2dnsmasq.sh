@@ -38,7 +38,7 @@ Valid options are:
     -d, --dns <dns_ip>
                 DNS IP address for the GfwList Domains (Default: 127.0.0.1)
     -p, --port <dns_port>
-                DNS Port for the GfwList Domains (Default: 5353)
+                DNS Port for the GfwList Domains (Default: 7913)
     -s, --ipset <ipset_name>
                 Ipset name for the GfwList domains
                 (If not given, ipset rules will not be generated.)
@@ -102,7 +102,7 @@ check_depends(){
 get_args(){
     OUT_TYPE='DNSMASQ_RULES'
     DNS_IP='127.0.0.1'
-    DNS_PORT='5353'
+    DNS_PORT='7913'
     IPSET_NAME=''
     FILE_FULLPATH=''
     CURL_EXTARG=''
